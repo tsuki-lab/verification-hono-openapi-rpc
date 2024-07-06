@@ -8,7 +8,10 @@
     "deploy": "$npm_execpath run build && wrangler pages deploy"
   },
   "dependencies": {
-    "hono": "^4.4.12"
+    "@hono/swagger-ui": "^0.3.0",
+    "@hono/zod-openapi": "^0.14.7",
+    "hono": "^4.4.12",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20240529.0",
